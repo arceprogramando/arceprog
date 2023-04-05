@@ -4,6 +4,7 @@ import star from "./star.svg";
 import shield from "./shield.svg"
 import  send  from "./send.svg";
 import bill from "./bill.png";
+import microgenesis from "./microgenesis.png"
 
 export{
     miproyecto,
@@ -11,5 +12,6 @@ export{
     star,
     shield,
     send,
-    bill
+    bill,
+    microgenesis,
 }

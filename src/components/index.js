@@ -4,6 +4,7 @@ import Clientes from "./Clientes";
 import Caracteristicas from "./Caracteristicas";
 import Productos from "./Productos";
 
+
 export{
     Navbar,
     Inicio,
