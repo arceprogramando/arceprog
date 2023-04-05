@@ -1,3 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-gradient {
+    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
+            #def9fa 0.89%,
+            #9BD7AF 17.23%,
+            #7FB992 42.04%,
+            #5F9E70 55.12%,
+            #3F704D 71.54%,
+            #1E824C 100%,
+            #19C37D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-discount-gradient {
+    background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+}
+
+.bg-green-gradient {
+    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
+            #def9fa 0.89%,
+            #9BD7AF 17.23%,
+            #7FB992 42.04%,
+            #5F9E70 55.12%,
+            #3F704D 71.54%,
+            #1E824C 100%,
+            #19C37D);
+}
+
+.pink__gradient {
+    background: linear-gradient(90deg, #e2f4c4 0%, #4dee02 100%);
+    filter: blur(900px);
+}
+
+.white__gradient {
+    background: rgba(255, 255, 255, 0.6);
+    filter: blur(750px);
+}
+
+.caracteristica-card:hover {
+    background: var(--black-gradient);
+    box-shadow: var(--card-shadow);
+}

@@ -1,12 +1,13 @@
 import Navbar from "./Navbar";
-import Home from "./Home"
-import Features from "./Features";
-import Product from "./Product";
-import Clients from "./Clients";
+import Inicio from "./Inicio"
+import Clientes from "./Clientes";
+import Caracteristicas from "./Caracteristicas";
+import Productos from "./Productos";
+
 export{
     Navbar,
-    Home,
-    Features,
-    Product,
-    Clients,
+    Inicio,
+    Caracteristicas,
+    Productos,
+    Clientes,
 };
