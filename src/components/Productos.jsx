@@ -7,7 +7,7 @@ const Productos = () => {
                 <div className={`${styles.boxWidth} ${styles.flexCenter}`}>
                     <section id="product" className={`${layout.sectionReverse} `}>
                         <div className={layout.sectionImgReverse}>
-                            <img src={bill} alt="billing" className="w-[100%] h-[100%] relative z-[5ss]" />
+                            <img src={bill} alt="billing" className="w-[100%] h-[100%] relative z-[5ss] max-w-sm" />
 
                             {/* gradient start */}
                             <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />

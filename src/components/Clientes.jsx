@@ -7,7 +7,7 @@ const Clientes = () => {
             <div className={`bg-primary ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth} ${styles.flexCenter}`}>
                     <section className="text-gradient ">
-                        <h2 className="text-gradient font-poppins font-semibold ss:text-[68px] text-[52px]">Proyectos</h2>
+                        <h2 className="text-gradient font-poppins font-semibold ss:text-[68px] text-[52px] text-center">Proyectos</h2>
                         <div className="p-20  w-full md:w-1/2">
                             <h3 className="text-purple-300 font-bold mb-4">Microgenesis</h3>
                             <div className="rounded-lg shadow-lg  ">

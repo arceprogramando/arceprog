@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import styles from './style'
 import { Navbar, Inicio, Productos, Clientes, Caracteristicas } from "./components"
+import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -22,7 +23,17 @@ const App = () => {
             <Route exact path="/productos" element={<Productos />} />
             <Route exact path="/clientes" element={<Clientes />} />
           </Routes>
+
+
+          <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+            <div className={`${styles.boxWidth}`}>
+              <Footer />
+            </div>
+          </div>
+
+
         </div>
+
 
       </BrowserRouter>
     </>
