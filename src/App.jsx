@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import styles from './style'
 import { Navbar, Inicio, Productos, Clientes, Caracteristicas } from "./components"
 import Footer from "./components/Footer";
 
@@ -7,31 +6,20 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
-
       <BrowserRouter>
         <div className="bg-primary w-full overflow-hidden text-lime-900 min-h-screen" >
-          <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={`${styles.boxWidth}`}>
+          <div className="container max-w-5xl  mx-auto   flex justify-between">
               <Navbar />
-            </div>
           </div>
-
           <Routes>
             <Route exact path="/" element={<Inicio />} />
-            <Route exact path="/inicio" element={<Inicio />} />
             <Route exact path="/caracteristicas" element={<Caracteristicas />} />
             <Route exact path="/productos" element={<Productos />} />
             <Route exact path="/clientes" element={<Clientes />} />
           </Routes>
 
 
-          <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={`${styles.boxWidth}`}>
-              <Footer />
-            </div>
-          </div>
-
-
+          <Footer />
         </div>
 
 

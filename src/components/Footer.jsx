@@ -1,21 +1,17 @@
 
-import styles, { layout } from "../style"
+import styles from "../style"
 import { footerLinks, socialMedia } from "../constants";
 const Footer = () => {
     return (
         <>
-            <div className={`bg-primary ${styles.flexStart}`}>
-                <div className={`${styles.boxWidth}`}>
+            <div className="bg-primary flex justify-center items-start">
                     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
                         <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
                             <div className="flex-[1] flex flex-col justify-start mr-10">
                                 <p className="w-[266px] h-[72.14px] object-contain text-gradient">
-
                                     ArceProg
-
-
                                 </p>
-                                <p className={`${styles.paragraph} mt-4 max-w-[350px] text-dimGrey`}>
+                                <p className={`${styles.paragraph} mt-4 max-w-3xl text-dimGrey`}>
                                     Creemos sitios web impresionantes y efectivos para llevar tu presencia en línea al siguiente nivel.
                                 </p>
                             </div>
@@ -63,7 +59,6 @@ const Footer = () => {
                             </div>
                         </div>
                     </section>
-                </div>
             </div>
         </>
     )

@@ -1,8 +1,8 @@
-import { star,shield,send,instagram,facebook,twitter,linkedin } from "../assets";
+import { star, shield, send, instagram, facebook, twitter, linkedin } from "../assets";
 
 export const headerUrl = [
   {
-    id: "inicio",
+    id: "",
     title: "Inicio",
   },
   {

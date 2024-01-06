@@ -6,11 +6,11 @@ const Navbar = () => {
     const [active, setActive] = useState("Home")
     return (
         <>
-            <nav className='w-full flex py-4 justify-between items-center navbar'>
+            <nav className='w-full flex py-2 z-50 mb-4'>
                 <Link to={`./`}>
-                    <h1 className='text-[24px] text-white font-poppins'>ArceProg</h1>
+                    <h1 className='text-[24px] text-white font-poppins uppercase'>ArceProg</h1>
                 </Link>
-                <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+                <ul className="sm:flex justify-end items-center flex-1">
                     {headerUrl.map((nav, index) => (
                         <li
                             key={nav.id}
